@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "56926022527",
+    "firebase_url": "https://gyulapp-1553692886172.firebaseio.com",
+    "project_id": "gyulapp-1553692886172",
+    "storage_bucket": "gyulapp-1553692886172.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56926022527:android:d7593744e1370509",
+        "android_client_info": {
+          "package_name": "hu.dartke.gyulapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56926022527-gsqic2on7b5rer9o5sv34rrah86fgg4t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hu.dartke.gyulapp",
+            "certificate_hash": "4eb107320326ab6a38da211b765c6ce61e6d9fc3"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdx4YmWuP5d-RHhWJLbZPJRr7uKC5BFTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56926022527-sc787eh6f6j229pqvvg3qmc99nh0ff59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

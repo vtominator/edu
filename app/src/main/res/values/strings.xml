@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">edu</string>
+    <string name="facebook_app_id">2240598252923652</string>
+    <string name="fb_login_protocol_scheme">fb2240598252923652</string>
+
+    <string name="navigation_drawer_open">Nagigációs menü megnyitása</string>
+    <string name="navigation_drawer_close">Nagigációs menü bezárása</string>
+    <string name="search">Keresés</string>
+
+    <string name="username">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="password_again">Jelszó mégegyszer</string>
+    <string name="email">E-mail cím</string>
+    <string name="login">Bejelentkezés</string>
+
+    <string name="registration">REGISZTRÁCIÓ</string>
+    <string name="registration_1">HA NINCS MÉG FIÓKOD JELENTKEZZ BE FACEBOOK VAGY GOOGLE HASZNÁLATÁVAL, VAGY</string>
+    <string name="registration_2"><u>REGISZTRÁLJ ITT</u></string>
+    <string name="loginguest"><u>BÖNGÉSZÉS BEJELENTKEZÉS NÉLKÜL</u></string>
+
+    <string name="fun">FUN!</string>
+    <string name="kapcsolodj_ki">KAPCSOLÓDJ KI!</string>
+    <string name="jelentkezz">JELENTKEZZ!</string>
+    <string name="szorazkozas">SZÓRAKOZÁS</string>
+    <string name="esemeny">ESEMÉNY</string>
+    <string name="lehetoseg">LEHETŐSÉG</string>
+    <string name="szulo">SZÜLŐ</string>
+    <string name="fiatalok">FIATALOK</string>
+    <string name="szakemberek">SZAKEMBEREK</string>
+
+    <string name="main_category">Főkategória</string>
+    <string name="side_category">Alkategória</string>
+    <string name="eventname">Cím</string>
+    <string name="date">Nap kiválasztása</string>
+    <string name="time">Időpont kiválasztása</string>
+    <string name="picture">Kép kiválasztása</string>
+    <string name="description">Leírás</string>
+    <string name="location">Helyszín</string>
+    <string name="organiser">Szervező</string>
+    <string name="makebutton">Létrehozás</string>
+
+
+    <string-array name="main_category">
+        <item>@string/fun</item>
+        <item>@string/kapcsolodj_ki</item>
+    </string-array>
+    <string-array name="side_category_fun">
+        <item>@string/szorazkozas</item>
+        <item>@string/esemeny</item>
+        <item>@string/lehetoseg</item>
+    </string-array>
+    <string-array name="side_category_kapcsolodj_ki">
+        <item>@string/szulo</item>
+        <item>@string/fiatalok</item>
+        <item>@string/szakemberek</item>
+    </string-array>
+</resources>

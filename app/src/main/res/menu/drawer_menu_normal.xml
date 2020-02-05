@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/name_change"
+        android:title="Név változtatás" />
+    <item
+        android:id="@+id/email_change"
+        android:title="E-mail cím változtatás" />
+    <item
+        android:id="@+id/password_change"
+        android:title="Jelszó változtatás" />
+    <item
+        android:id="@+id/likes"
+        android:title="Érdeklődés" />
+
+    <item
+        android:id="@+id/notifications"
+        android:title="Értesítések"
+        app:actionLayout="@layout/layout_switch" />
+
+    <item
+        android:id="@+id/literature"
+        android:title="Irodalom" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Kijelentkezés" />
+
+
+</menu>

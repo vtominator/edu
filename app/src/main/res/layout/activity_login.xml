@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.LoginActivity"
+    android:background="@color/blue">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/edu_logo" />
+
+                <EditText
+                    android:id="@+id/etUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/logo"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/roundedbutton"
+                    android:fontFamily="@font/scpregular"
+                    android:hint="@string/username"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp" />
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/etUsername"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/roundedbutton"
+                    android:fontFamily="@font/scpregular"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp" />
+
+
+                <Button
+                    android:id="@+id/bLogin"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etPassword"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/blackbutton_bottom"
+                    android:fontFamily="@font/scpregular"
+                    android:text="@string/login"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/buttonPanel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bLogin"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <com.facebook.login.widget.LoginButton
+                        android:id="@+id/bFacebook"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="90dp"
+                        android:layout_marginRight="90dp"
+                        android:layout_marginBottom="10dp"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        facebook:com_facebook_login_text="Bejelentkezés Facebookkal" />
+
+
+                    <com.google.android.gms.common.SignInButton
+                        android:id="@+id/bGoogle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="85dp"
+                        android:layout_marginRight="85dp"
+                        android:text="signInButton" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvRegText"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buttonPanel"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/scpbold"
+                    android:gravity="center"
+                    android:text="@string/registration_1"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvRegistration"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvRegText"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/scpbold"
+                    android:gravity="center"
+                    android:text="@string/registration_2"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvLoginGuest"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvRegistration"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/scpbold"
+                    android:gravity="center"
+                    android:text="@string/loginguest"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
